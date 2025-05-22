@@ -19,10 +19,11 @@ function validation() {
             } else { 
                 emailInput.setCustomValidity("");
             }
-
             emailInput.reportValidity();
         });
     }
+
+    // country 
 
     return { createEmailValidation };
 }
