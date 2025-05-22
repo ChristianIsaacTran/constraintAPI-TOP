@@ -17,3 +17,7 @@ is pushed with any active errors or unfilled required fields.
 4. form HTML element should have the "novalidate" attribute to allow all validation to be through the javascript files. Can still use HTML types.
 
 5. If the form is submitted properly, give user a high five.
+
+# drawn plan 
+
+![form drawn plan](src/images/formPlan.png)
