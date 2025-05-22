@@ -1,7 +1,7 @@
 function validation() {
-    // email validation
+    // email validation (email)
     function checkEmail(emailVal) {
-        const emailFormat = /^[\w-.]+@([\w-]+.)+[\w-]{2,}$/;
+        const emailFormat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$/;
 
         if (emailFormat.test(emailVal)) {
             return true;
@@ -23,7 +23,7 @@ function validation() {
         });
     }
 
-    // country 
+    // country validation 
 
     return { createEmailValidation };
 }
