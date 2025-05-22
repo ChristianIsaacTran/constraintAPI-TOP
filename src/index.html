@@ -1,11 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Constraint Validation</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Constraint Validation</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <h1>Some Company</h1>
+            <form action="" method="" novalidate>
+                <div class="form-group">
+                    <div class="label-group">
+                        <label for="email">Email:</label>
+                        <label for="country">Country:</label>
+                        <label for="postal-code">Postal Code:</label>
+                        <label for="password">Password:</label>
+                        <label for="password-confirm">Password Confirmation:</label>    
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="email" />
+                        <input type="text" id="country" />
+                        <input type="text" id="postal-code" />
+                        <input type="text" id="password" />
+                        <input type="text" id="password-confirm" />
+                    </div>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </body>
 </html>
