@@ -67,3 +67,17 @@ label {
 h1 {
     font-size: 5rem;
 }
+
+#email:valid {
+    border: 5px green solid;
+}
+
+#email:invalid {
+    border: 5px red solid;
+}
+
+label::before,
+.directions::after {
+    content: "*";
+    color: red;
+}

@@ -8,6 +8,7 @@
     <body>
         <div class="form-container">
             <h1>Some Company</h1>
+            <h3 class="directions">Required fields are marked with </h3>
             <form action="" method="" novalidate>
                 <div class="form-group">
                     <div class="label-group">
@@ -18,11 +19,11 @@
                         <label for="password-confirm">Password Confirmation:</label>    
                     </div>
                     <div class="input-group">
-                        <input type="text" id="email" />
-                        <input type="text" id="country" />
-                        <input type="text" id="postal-code" />
-                        <input type="text" id="password" />
-                        <input type="text" id="password-confirm" />
+                        <input type="text" id="email" required/>
+                        <input type="text" id="country" required/>
+                        <input type="text" id="postal-code" required/>
+                        <input type="text" id="password" required/>
+                        <input type="text" id="password-confirm" required/>
                     </div>
                 </div>
                 <button type="submit" class="submit-button">Submit</button>
