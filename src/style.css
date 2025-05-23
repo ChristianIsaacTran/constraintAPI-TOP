@@ -52,7 +52,7 @@ input {
 }
 
 .label-group {
-    gap: 10px;
+    gap: 18px;
 }
 
 label {
@@ -68,11 +68,11 @@ h1 {
     font-size: 5rem;
 }
 
-#email:valid {
+input:valid {
     border: 5px green solid;
 }
 
-#email:invalid {
+input:invalid {
     border: 5px red solid;
 }
 
@@ -80,4 +80,23 @@ label::before,
 .directions::after {
     content: "*";
     color: red;
+}
+
+
+
+dialog.visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+dialog p {
+    font-size: 1.5rem;
+    padding: 0; 
+    margin: 0;
+}
+
+dialog h1 {
+    padding: 0; 
+    margin: 0;
 }
